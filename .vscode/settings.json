@@ -1,6 +1,9 @@
+// settings.json
 {
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
+      "source.fixAll": true,
+      "source.fixAll.eslint": true,
+  },
+  "eslint.format.enable": true
 }
